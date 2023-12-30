@@ -8,6 +8,7 @@ Antes de iniciar o programa, certifique-se de ter o Node.js instalado em sua má
 
 1. Instale as dependências do projeto utilizando o comando:
    ```bash
+   
    npm install
 
 2. Configure as informações de conexão com o banco de dados no arquivo "index.js"
@@ -21,6 +22,7 @@ const connection = mysql.createConnection({
 
 3. Inicie o servidor usando o comando:
    ```bash
+   
    npm start
 
 ## Funcionalidades
@@ -49,6 +51,9 @@ const connection = mysql.createConnection({
 
 ## Mensagem Automática no WhatsApp
 
-O programa utiliza a API do WhatsApp para enviar mensagens automáticas aos clientes quando um orçamento é marcado como concluído. Certifique-se de ter as permissões necessárias e a chave de autenticação da API configurada no código.
+O programa utiliza a API do WhatsApp "ChatPro" para enviar mensagens automáticas aos clientes quando um orçamento é marcado como concluído. Certifique-se de ter as permissões necessárias e a chave de autenticação da API configurada no código.
 
+---
+
+Feito por [**JUBILEU8888**](https://github.com/Jubileu8888) como uma ferramenta versátil para gerenciamento de clientes e orçamentos. Sinta-se à vontade para contribuir, reportar problemas ou adicionar novas funcionalidades!
 
