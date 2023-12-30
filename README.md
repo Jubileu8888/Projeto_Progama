@@ -20,8 +20,8 @@ const connection = mysql.createConnection({
 });
 
 3. Inicie o servidor usando o comando:
- ```bash
- npm start
+   ```bash
+   npm start
 
 ## Funcionalidades
 
