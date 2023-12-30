@@ -4,7 +4,7 @@ Este repositório contém um programa desenvolvido em Node.js que oferece funcio
 
 ## Configuração
 
-Antes de iniciar o programa, certifique-se de ter o Node.js instalado em sua máquina. Além disso, é necessário configurar um banco de dados MySQL e fornecer as informações de conexão no arquivo `app.js`.
+Antes de iniciar o programa, certifique-se de ter o Node.js instalado em sua máquina. Além disso, é necessário configurar um banco de dados MySQL e fornecer as informações de conexão no arquivo `index.js`.
 
 1. Instale as dependências do projeto utilizando o comando:
    ```bash
@@ -24,6 +24,17 @@ const connection = mysql.createConnection({
    ```bash
    
    npm start
+
+## Requisitos para Rodar o Programa
+
+Para executar este programa em sua máquina, você precisará atender aos seguintes requisitos:
+
+1. **Node.js:** Certifique-se de ter o Node.js instalado. Você pode baixá-lo [aqui](https://nodejs.org/).
+
+2. **MySQL:** Instale e configure um servidor MySQL. Você pode usar o Wamp Server, XAMPP ou instalar o MySQL diretamente. Certifique-se de criar um banco de dados chamado `clientes_programa` para o programa.
+
+3. **Navegador Web:** O programa é acessado através de um navegador da web. Recomendamos o uso de navegadores modernos como Google Chrome, Mozilla Firefox ou Microsoft Edge.
+
 
 ## Funcionalidades
 
