@@ -41,8 +41,7 @@ const connection = mysql.createConnection({
 
 ### 3. Busca de Clientes e Orçamentos
 
-- Utilize a rota `/busca/:cpf` para buscar informações detalhadas sobre um cliente e seus orçamentos.
-- Substitua `:cpf` pelo CPF do cliente desejado.
+- O progama irá ultilizar a rota `/busca/:cpf` para buscar informações detalhadas sobre um cliente e seus orçamentos.
 
 ### 4. Marcar Orçamento como Concluído
 
