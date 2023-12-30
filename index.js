@@ -211,12 +211,12 @@ app.post('/marcar-concluido/:idOrcamento', (req, res) => {
               headers: {
                 accept: 'application/json',
                 'content-type': 'application/json',
-                Authorization: '7705231d961be085d276031fa7a240e1'
+                Authorization: '// SEU TOKEN DO CHATPRO'
               },
               body: JSON.stringify({number: `${numeromensagem}`, message: `Olá ${nomemensagem} o seu serviço de ${descricaoachou} está pronto ✅`})
             };
-
-            fetch('https://v5.chatpro.com.br/chatpro-24a6afc29d/api/v1/send_message', options)
+            // COLOQUE SUAS INFORMAÇÕES DO CHATPRO
+            fetch(// COLOQUE AQUI //, options)
               .then(response => response.json())
               .then(response => console.log(response))
               .catch(err => console.error(err));
